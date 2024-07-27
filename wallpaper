@@ -1,0 +1,6 @@
+#!/bin/sh
+#show all wallpapers
+#wallpaper =$(ls ~/Pictures | dmenu -i -l 50)
+SelectedImage=$(ls ~/Pictures/Wallpapers | dmenu -i -l 50)
+[ $SelectedImage -z] || feh --bg-fill ~/Pictures/Wallpapers/$SelectedImage
+
