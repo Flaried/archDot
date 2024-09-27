@@ -1,0 +1,3 @@
+#!/bin/bash
+SelectedImage=$(ls ~/Pictures/Wallpapers | dmenu -i -l 50)
+[$SelectedImage -z] || feh --bg-fill ~/Pictures/Wallpapers/$SelectedImage ~/Pictures/Wallpapers/$SelectedImage ~/Pictures/Wallpapers/mononke-zoomed-out.jpg
