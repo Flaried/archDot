@@ -1,0 +1,142 @@
+21:36:31.080: [Safe Mode] Unclean shutdown detected!
+21:36:32.487: [Safe Mode] User elected to launch normally.
+21:36:32.489: Using EGL/X11
+21:36:32.489: CPU Name: AMD Ryzen 7 3800XT 8-Core Processor
+21:36:32.489: CPU Speed: 4405.517MHz
+21:36:32.490: Physical Cores: 8, Logical Cores: 16
+21:36:32.490: Physical Memory: 32023MB Total, 6326MB Free
+21:36:32.490: Kernel Version: Linux 6.10.10-arch1-1
+21:36:32.490: Distribution: "Arch Linux" Unknown
+21:36:32.490: Session Type: tty
+21:36:32.490: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+21:36:32.491: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+21:36:32.491: Portable mode: false
+21:36:32.515: OBS 30.2.1-1 (linux)
+21:36:32.515: ---------------------------------
+21:36:32.515: ---------------------------------
+21:36:32.515: audio settings reset:
+21:36:32.515: 	samples per sec: 48000
+21:36:32.515: 	speakers:        2
+21:36:32.515: 	max buffering:   960 milliseconds
+21:36:32.515: 	buffering type:  dynamically increasing
+21:36:32.521: ---------------------------------
+21:36:32.521: Initializing OpenGL...
+21:36:32.660: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3080/PCIe/SSE2
+21:36:32.660: OpenGL loaded successfully, version 3.3.0 NVIDIA 560.35.03, shading language 3.30 NVIDIA via Cg compiler
+21:36:32.686: ---------------------------------
+21:36:32.686: video settings reset:
+21:36:32.686: 	base resolution:   1920x1080
+21:36:32.686: 	output resolution: 1920x1080
+21:36:32.686: 	downscale filter:  Bicubic
+21:36:32.686: 	fps:               60/1
+21:36:32.686: 	format:            NV12
+21:36:32.686: 	YUV mode:          Rec. 709/Partial
+21:36:32.687: NV12 texture support enabled
+21:36:32.687: P010 texture support not available
+21:36:32.752: Audio monitoring device:
+21:36:32.752: 	name: Default
+21:36:32.752: 	id: default
+21:36:32.752: ---------------------------------
+21:36:32.761: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:36:32.771: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:36:32.780: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:36:32.780: Failed to initialize module 'decklink.so'
+21:36:32.951: [pipewire] No capture sources available
+21:36:32.974: v4l2loopback not installed, virtual camera not registered
+21:36:33.049: NVENC supported
+21:36:33.049: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+21:36:33.049: FFmpeg VAAPI H264 encoding not supported
+21:36:33.049: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+21:36:33.049: FFmpeg VAAPI AV1 encoding not supported
+21:36:33.049: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+21:36:33.049: FFmpeg VAAPI HEVC encoding not supported
+21:36:33.196: ---------------------------------
+21:36:33.196:   Loaded Modules:
+21:36:33.196:     linux-pipewire-audio.so
+21:36:33.196:     text-freetype2.so
+21:36:33.196:     rtmp-services.so
+21:36:33.196:     obs-x264.so
+21:36:33.196:     obs-webrtc.so
+21:36:33.196:     obs-vst.so
+21:36:33.196:     obs-transitions.so
+21:36:33.196:     obs-qsv11.so
+21:36:33.196:     obs-outputs.so
+21:36:33.196:     obs-libfdk.so
+21:36:33.196:     obs-filters.so
+21:36:33.196:     obs-ffmpeg.so
+21:36:33.196:     linux-v4l2.so
+21:36:33.196:     linux-pulseaudio.so
+21:36:33.196:     linux-pipewire.so
+21:36:33.196:     linux-jack.so
+21:36:33.196:     linux-capture.so
+21:36:33.196:     linux-alsa.so
+21:36:33.196:     image-source.so
+21:36:33.196:     frontend-tools.so
+21:36:33.196:     decklink-output-ui.so
+21:36:33.196:     decklink-captions.so
+21:36:33.196: ---------------------------------
+21:36:33.197: ---------------------------------
+21:36:33.197: Available Encoders:
+21:36:33.197:   Video Encoders:
+21:36:33.197: 	- ffmpeg_svt_av1 (SVT-AV1)
+21:36:33.197: 	- ffmpeg_aom_av1 (AOM AV1)
+21:36:33.197: 	- jim_nvenc (NVIDIA NVENC H.264)
+21:36:33.197: 	- jim_hevc_nvenc (NVIDIA NVENC HEVC)
+21:36:33.197: 	- jim_av1_nvenc (NVIDIA NVENC AV1)
+21:36:33.197: 	- obs_x264 (x264)
+21:36:33.197:   Audio Encoders:
+21:36:33.197: 	- ffmpeg_aac (FFmpeg AAC)
+21:36:33.197: 	- ffmpeg_opus (FFmpeg Opus)
+21:36:33.197: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+21:36:33.197: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+21:36:33.197: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+21:36:33.197: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+21:36:33.197: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+21:36:33.197: 	- libfdk_aac (libfdk AAC)
+21:36:33.197: ==== Startup complete ===============================================
+21:36:33.241: All scene data cleared
+21:36:33.241: ------------------------------------------------
+21:36:33.250: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+21:36:33.250: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:36:33.250: pulse-input: Started recording from 'alsa_output.usb-Universal_Audio_Volt_2_22412037064144-00.HiFi__Line1__sink.monitor' (default)
+21:36:33.250: [Loaded global audio device]: 'Desktop Audio'
+21:36:33.250: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.4) 15.0.0'
+21:36:33.250: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+21:36:33.250: pulse-input: Started recording from 'easyeffects_source'
+21:36:33.250: [Loaded global audio device]: 'Mic/Aux'
+21:36:33.286: [pipewire] Created stream 0x601d0a0f0340
+21:36:33.288: xshm-input: Geometry 1920x1080 @ 1440,494
+21:36:33.289: Switched to scene 'Scene'
+21:36:33.289: ------------------------------------------------
+21:36:33.289: Loaded scenes:
+21:36:33.289: - scene 'Scene':
+21:36:33.290:     - source: 'Application Audio Capture (PipeWire)' (pipewire_audio_application_capture)
+21:36:33.290:     - source: 'Display Capture (XSHM)' (xshm_input)
+21:36:33.290: ------------------------------------------------
+21:36:33.300: [pipewire] Created app capture sink 156 with 2 channels and position FL,FR
+21:36:33.408: [pipewire] 0x601d0a0f0340 Got format: rate 48000 - channels 2 - format 8
+21:36:33.860: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+21:36:33.860: 
+21:36:34.641: [obs-nvenc: 'advanced_video_recording'] settings:
+21:36:34.641: 	codec:        H264
+21:36:34.641: 	rate_control: CQP
+21:36:34.641: 	bitrate:      0
+21:36:34.641: 	cqp:          20
+21:36:34.641: 	keyint:       250
+21:36:34.641: 	preset:       p3
+21:36:34.641: 	tuning:       hq
+21:36:34.641: 	multipass:    qres
+21:36:34.641: 	profile:      main
+21:36:34.641: 	width:        1920
+21:36:34.641: 	height:       1080
+21:36:34.641: 	b-frames:     2
+21:36:34.641: 	lookahead:    false
+21:36:34.641: 	psycho_aq:    true
+21:36:34.641: 
+21:36:34.690: libfdk_aac encoder created
+21:36:34.690: libfdk_aac bitrate: 160, channels: 2
+21:36:34.692: ==== Replay Buffer Start ===========================================
+21:36:34.694: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+21:55:07.929: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+21:55:07.929: 
+23:11:42.458: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/home/shiba/Videos/Replay 2024-09-25 23-11-40.mp4'
